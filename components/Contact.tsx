@@ -74,19 +74,19 @@ const Contact = () => {
           {[
             {
               title: "Email",
-              value: "contact@thevrestate.com",
+              value: "anchit.dixit@thevrestate.com",
               icon: "📧",
-              link: "mailto:contact@thevrestate.com"
+              link: "mailto:anchit.dixit@thevrstate.com"
             },
             {
               title: "Phone",
-              value: "+91-XXXX-XXXXXX",
+              value:"+91-6268299348",
               icon: "📱",
-              link: "tel:+91XXXXXXXXXX"
+              link: "tel:+916268299348"
             },
             {
               title: "Office",
-              value: "[Your Location]",
+              value: "[Rajajipuram , Lucknow,Uttarpradesh]",
               icon: "🏢",
               link: "https://maps.google.com"
             }

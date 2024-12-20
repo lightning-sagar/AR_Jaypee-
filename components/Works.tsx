@@ -11,19 +11,19 @@ const Works = () => {
     {
       title: "Luxury Villa Tour",
       description: "Immersive 3D walkthrough of a beachfront property",
-      image: "/Images/image02.jpg",
+      image: "/Images/untitled.png",
       category: "Residential"
     },
     {
       title: "Commercial Complex",
       description: "Interactive model of a modern office space",
-      image: "/Images/image-1.png.jpg",
+      image: "/Images/newimage05.jpg",
       category: "Commercial"
     },
     {
       title: "Smart Home Experience",
       description: "Virtual tour showcasing home automation features",
-      image: "/Images/image03.jpg",
+      image: "/Images/newimage03.jpg",
       category: "Residential",
       
     }
@@ -37,7 +37,7 @@ const Works = () => {
           whileInView={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"
         >
-          Our Work
+          Past Works 
         </motion.h2>
         <div className="max-w-3xl mx-auto">
           <TextGenerateEffect words={introText} />

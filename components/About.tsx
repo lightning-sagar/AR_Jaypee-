@@ -71,7 +71,7 @@ const About = () => {
                       "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
                     name: "Utkarsh Upadhyay",
                     designation: "Chief Technical Officer",
-                    src: "https://drive.google.com/uc?id=1IGdNI6VU-UOVP74Y9OPXuoPWqjr99qtx",
+                    src: "https://drive.google.com/uc?export=download&id=1poly_Ext-R54Vb8PQlH_jHKlibqivr7z",
                   },
                   {
                     quote:
