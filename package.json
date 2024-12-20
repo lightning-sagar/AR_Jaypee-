@@ -19,6 +19,7 @@
     "nodemailer": "^6.9.16",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-responsive": "^10.0.0",
     "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {
