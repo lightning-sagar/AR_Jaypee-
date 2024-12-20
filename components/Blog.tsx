@@ -123,33 +123,33 @@ const Blog = () => {
         ))}
       </div>
       <BackgroundGradient className="rounded-xl bg-black p-8 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          className="max-w-2xl mx-auto"
-        >
-          <h3 className="text-2xl font-bold text-white mb-4">
-            Stay Updated with VR Estate
-          </h3>
-          <p className="text-gray-400 mb-6">
-            Subscribe to our newsletter for the latest insights, guides, and trends in VR real estate technology.
-          </p>
-          <form className="flex gap-4 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-blue-500"
-            />
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg font-semibold"
-            >
-              Subscribe
-            </motion.button>
-          </form>
-        </motion.div>
-      </BackgroundGradient>
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    className="max-w-2xl mx-auto"
+      >
+        <h3 className="text-2xl font-bold text-white mb-4">
+          Stay Updated with VR Estate
+        </h3>
+        <p className="text-gray-400 mb-6">
+          Subscribe to our newsletter for the latest insights, guides, and trends in VR real estate technology.
+        </p>
+        <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="flex-1 px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-blue-500"
+          />
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg font-semibold sm:w-auto"
+          >
+            Subscribe
+          </motion.button>
+        </form>
+      </motion.div>
+    </BackgroundGradient>
     </div>
   );
 };
