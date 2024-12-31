@@ -62,7 +62,7 @@ const About = () => {
         {
           quote:
             "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-          name: "Archit Dixit",
+          name: "Anchit Dixit",
           designation: "Founder and CEO",
           src: "https://drive.google.com/uc?id=1CJ9yXavxT9h6HPN7iiflzpnKiPOwtQ6C", 
         },

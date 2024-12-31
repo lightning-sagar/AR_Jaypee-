@@ -136,11 +136,11 @@ const Blog = () => {
           <p className="text-gray-400 mb-6">
             Subscribe to our newsletter for the latest insights, guides, and trends in VR real estate technology.
           </p>
-          <form className="flex gap-4 max-w-md mx-auto">
+          <form className="flex flex-col sm:flex-row justify-center items-center gap-4 max-w-md mx-auto">
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-blue-500"
+              className="w-full sm:w-auto px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-blue-500"
             />
             <motion.button
               whileHover={{ scale: 1.02 }}
@@ -150,6 +150,7 @@ const Blog = () => {
               Subscribe
             </motion.button>
           </form>
+
         </motion.div>
       </BackgroundGradient>
     </div>

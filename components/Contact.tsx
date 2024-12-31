@@ -74,21 +74,21 @@ const Contact = () => {
           {[
             {
               title: "Email",
-              value: "contact@thevrestate.com",
+              value: "anchit.dixit@thevrestate.com ",
               icon: "📧",
-              link: "mailto:contact@thevrestate.com"
+              link: "mailto:anchit.dixit@thevrestate.com "
             },
             {
               title: "Phone",
-              value: "+91-XXXX-XXXXXX",
+              value: "+91-6268299348",
               icon: "📱",
-              link: "tel:+91XXXXXXXXXX"
+              link: "tel:+91-6268299348"
             },
             {
               title: "Office",
-              value: "[Your Location]",
+              value: "lucknow, Uttar Pradesh",
               icon: "🏢",
-              link: "https://maps.google.com"
+              link: "https://maps.app.goo.gl/HbF7jkCfEPp9Wafm8"
             }
           ].map((item, index) => (
             <BackgroundGradient key={index} className="rounded-xl p-6 bg-black">
